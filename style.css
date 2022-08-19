@@ -88,6 +88,7 @@ main {
     border-radius: 25px;
     background-color: green;
     cursor: pointer;
+    font-size: 24px;
 }
 
 .streakCounter {
