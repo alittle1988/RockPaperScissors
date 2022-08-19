@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+</head>
+<body>
+    <header class="header">
+        <div class="title">
+            <h1>
+                <img src="./resources/Images/title pic .jpeg" alt="">
+            </h1>
+        </div>   
+    </header>
+    <main>
+        <table class="instruction-table">
+            <tr>
+                <th colspan="2" class="instruction-head">Instructions</th>
+            </tr>
+            <tr>
+                <td class="instruction-number">1</td>
+                <td class="instruction-text">choose Rock, Paper, or Scissors.</td>
+            </tr>
+            <tr>
+                <td class="instruction-number">2</td>
+                <td class="instruction-text">Then press Go.</td>
+            </tr>
+        </table>
+        <div class="game-selector" id="choice">
+            <img class="game-img" id="img1" src="./resources/Images/rock.png"/>
+            <img class="game-img" id="img2" src="./resources/Images/paper.png"/>
+            <img class="game-img" id="img3" src="./resources/Images/scissors.png"/>
+        </div>
+        <div class="results">
+            <div class="choice">
+                <p>You Choose</p>
+                <img class="game-img" id="yourChoice" src="./resources/Images/rock.png" alt="">
+            </div>
+            <div class="choice">
+                <p>The computer choose</p>
+                <img class="game-img" id="computerChoice" src="./resources/Images/scissors.png" alt="">
+            </div>
+        </div>
+        
+
+    </main>
+    
+</body>
+
+<script type="text/javaScript" src="script.js"></script>
+</html>

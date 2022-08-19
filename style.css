@@ -1,0 +1,66 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+main {
+    color: white;
+}
+
+.title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.title img {
+    width: 400px;
+    height: 250px;
+}
+
+.instruction-head {
+    font-size: 36px;
+}
+
+.instruction-table {
+    margin: 0 auto;
+    
+}
+
+.instruction-number{
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.instruction-text {
+    padding: 0;
+}
+
+.game-selector {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.game-img {
+    width: 200px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.game-img:hover {
+    border: 1px red solid;
+
+}
+
+.results {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.choice {
+    text-align: center;
+    margin: 0 auto;
+}
+
