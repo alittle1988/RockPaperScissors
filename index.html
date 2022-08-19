@@ -26,25 +26,54 @@
             </tr>
             <tr>
                 <td class="instruction-number">2</td>
-                <td class="instruction-text">Then press Go.</td>
+                <td class="instruction-text">Then press play Again to start new game.</td>
             </tr>
         </table>
         <div class="game-selector" id="choice">
-            <img class="game-img" id="img1" src="./resources/Images/rock.png"/>
-            <img class="game-img" id="img2" src="./resources/Images/paper.png"/>
-            <img class="game-img" id="img3" src="./resources/Images/scissors.png"/>
+            <div class="rock">
+            <img class="game-img" id="img1" src=""/>
+            <p>Rock</p>
+             </div>
+             <div class="paper">
+            <img class="game-img" id="img2" src=""/>
+                <p>Paper</p>
+            </div>
+            <div class="scissors">
+            <img class="game-img" id="img3" src=""/>
+            <p>Scissors</p>
+        </div>
+            
         </div>
         <div class="results">
             <div class="choice">
-                <p>You Choose</p>
-                <img class="game-img" id="yourChoice" src="./resources/Images/rock.png" alt="">
+                <p>You Chose</p>
+                <img class="game-img" id="yourChoice" src="" alt="">
             </div>
             <div class="choice">
-                <p>The computer choose</p>
-                <img class="game-img" id="computerChoice" src="./resources/Images/scissors.png" alt="">
+                <p>The computer chose</p>
+                <img class="game-img" id="computerChoice" src="" alt="">
             </div>
+            <div class="winner-loser">
+                <h4 class="winnerorloser"></h4>
+            </div>
+            <button class="button">Play Again</button>
+        </div>
+        <div class="streakCounter">
+            <div class="counterDiv">
+                <p>You</p>
+                <div class="counter" id="yourStreak">
+                    <p id="yourCounter"></p>
+                </div>
+            </div>
+            <div class="counterDiv">
+                <p>Computer</p>
+                <div class="counter" id="computerStreak">
+                    <p id="computerCounter"></p>
+                </div>
+        </div>
         </div>
         
+
 
     </main>
     

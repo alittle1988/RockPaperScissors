@@ -39,21 +39,26 @@ main {
 .game-selector {
     text-align: center;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
 }
 
 .game-img {
     width: 200px;
-    padding: 15px;
+    margin: 50px 50px 0 50px;
     cursor: pointer;
+    border: 4px black solid;
 }
 
 .game-img:hover {
-    border: 1px red solid;
+    border: 4px red solid;
 
 }
 
 .results {
-    display: flex;
+    display: none;
+    flex-wrap: wrap;
     text-align: center;
     margin: 0 auto;
 
@@ -64,3 +69,38 @@ main {
     margin: 0 auto;
 }
 
+.winner-loser {
+    width: 100%;
+    font-size: 50px;
+}
+
+.button {
+    width: 100px;
+    height: 75px;
+    margin: 0 auto;
+    border: 3px blue solid;
+    border-radius: 25px;
+    background-color: green;
+    cursor: pointer;
+}
+
+.streakCounter {
+    display: flex;
+    justify-content: center;
+}
+
+.counterDiv {
+    text-align: center;
+    font-size: 24px;
+}
+
+.counter {
+    margin: 25px;
+    font-size: 36px;
+    border: 2px red solid;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+}
