@@ -35,7 +35,7 @@ rockButton.addEventListener('click', () => {
         winLose.textContent = `It's a tie try again!`
         counterFunc('tie')
     } else if(computerChoice.src === paperButton.src) {
-        winLose.textContent = 'You lose try again!'
+        winLose.textContent = 'You lose THE GAME!'
         counterFunc('lose')
     } else if(computerChoice.src === scissorButton.src) {
         winLose.textContent = 'You Win!!!'
@@ -58,7 +58,7 @@ paperButton.addEventListener('click', () => {
         winLose.textContent = 'You Win!!!'
         counterFunc('win')
     } else if(computerChoice.src === scissorButton.src) {
-        winLose.textContent = 'You lose try again'
+        winLose.textContent = 'You lose THE GAME'
         counterFunc('lose')
     }
 });
@@ -75,7 +75,7 @@ scissorButton.addEventListener('click', () => {
         winLose.textContent = 'You win!!!!'
         counterFunc('win')
     } else if(computerChoice.src === rockButton.src) {
-        winLose.textContent = 'You lose try again'
+        winLose.textContent = 'You lose THE GAME'
         counterFunc('lose')
     }
 })
